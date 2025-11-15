@@ -7,7 +7,7 @@ from sklearn.impute import SimpleImputer # Import SimpleImputer for handling mis
 from sklearn.compose import ColumnTransformer # Import ColumnTransformer for applying different transformations to different columns
 from sklearn.pipeline import Pipeline # Import Pipeline for chaining multiple processing steps
 
-# 1. Load Titanic-Dataset.csv from the project folder
+# 1. Load Titanic-Dataset.csv from the Kaggle
 df = pd.read_csv('Dataset/Titanic-Dataset.csv') # Load the dataset into a pandas DataFrame
 
 # 2. Show initial dataset information
